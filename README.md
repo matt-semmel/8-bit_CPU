@@ -11,8 +11,8 @@ One is a constant zero.<br>
 Seven are writable.<br>
 
 <b>Instructions are 20-bits, with two different instruction formats:</b><br>
-R-Type (0): 19 (type), 18-14 (operation code), 13-9 (5-bit immediate), 8-6 (rt register number), 5-3 (rs register number), 2-0 (rd register number)<br>
-I-Type (1): 19 (type), 18-14 (operation code), 13-6 (8-bit immediate), 5-3 (rs register number), 2-0 (rd register number)<br>
+R-Type (0): 19 (type), 18-14 (operation code), 13-9 (5-bit immediate), 8-6 (rt register), 5-3 (rs register), 2-0 (rd register)<br>
+I-Type (1): 19 (type), 18-14 (operation code), 13-6 (8-bit immediate), 5-3 (rs register), 2-0 (rd register)<br>
 
 <b>Arithmetic Logic Unit (ALU) operations:</b><br>
 Addition and subtraction. Bitwise and, or, xor, not, shift left, shift right.<br>
